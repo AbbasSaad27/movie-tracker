@@ -1,0 +1,9 @@
+.row {
+    width: 100%;
+    position: relative;
+}
+.movies {
+    padding: 20px 15%;
+    display: flex;
+    justify-content: space-between;
+}

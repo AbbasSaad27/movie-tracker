@@ -1,0 +1,45 @@
+.movie-box {
+    width: 200px;
+    background-color: #202536;
+    padding: 0 1rem 1rem;
+    border-radius: 1rem;
+    /* position: relative; */
+}
+
+.movie-img {
+    height: 200px;
+    margin: 0 auto 2rem auto;
+    display: block;
+}
+
+.movie-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+.movie-name {
+    font-size: 2rem;
+}
+.bold {
+    font-weight: 700;
+}
+
+.btn {
+    border: none;
+    background: none;
+    color: white;
+    font-family: inherit;
+}
+
+.ratings {
+    text-align: right;
+}
+
+.review-box {
+    position: absolute;
+    width: 100%;
+    background-color: #202536;
+    padding: 2rem;
+    left: 0;
+    z-index: 99;
+}
