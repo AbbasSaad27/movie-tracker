@@ -11,10 +11,10 @@ const MovieBox = ({imgLink, movieName, watchedAt, rating, review}) => {
             <div className='movie-details'>
             <div className='about-movie'>
                 <p className='movie-name bold mb-2'>{movieName}</p>
-                <p className='movie-watched'>Watched on: <br/> {watchedAt}</p>
+                <p className='ratings mb-2'>{rating} / 10</p>
             </div>
             <div className='rating-review'>
-                <p className='ratings mb-2'>{rating} / 10</p>
+                <p className='movie-watched'>Watched on: <br/> {watchedAt}</p>
                 <button className='btn btn-review' onClick={() => setViewReview(!viewReview)}>View Review</button>
             </div>
             </div>

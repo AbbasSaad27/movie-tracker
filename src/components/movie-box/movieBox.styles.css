@@ -13,9 +13,11 @@
 }
 
 .movie-details {
+    font-size: 1.4rem;
+}
+.movie-details div {
     display: flex;
     justify-content: space-between;
-    font-size: 1.4rem;
 }
 .movie-name {
     font-size: 2rem;
@@ -35,13 +37,14 @@
 .btn-review {
     border: 1px solid white;
     padding: 4px;
-    position: absolute;
+    /* position: absolute;
     margin-left: -5rem;
-    bottom: 3.5rem;
+    bottom: 3.5rem; */
 }
 
 .ratings {
     text-align: right;
+    flex-basis: 4rem;
 }
 
 .review-box {
