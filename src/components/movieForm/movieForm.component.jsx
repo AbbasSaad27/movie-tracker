@@ -14,8 +14,8 @@ const MovieForm = ({moviesData, setmoviesData, addMovie}) => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        if(!movieDataInput.review) {
-            alert("Please add a review");
+        if(!movieDataInput.review || !movieDataInput.watchedOn || !movieDataInput.movieName || !movieDataInput.rating) {
+            alert("Please add required details");
             return;
         }
 

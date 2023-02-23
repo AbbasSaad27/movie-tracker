@@ -29,6 +29,15 @@
     background: none;
     color: white;
     font-family: inherit;
+    cursor: pointer;
+}
+
+.btn-review {
+    border: 1px solid white;
+    padding: 4px;
+    position: absolute;
+    margin-left: -5rem;
+    bottom: 3.5rem;
 }
 
 .ratings {

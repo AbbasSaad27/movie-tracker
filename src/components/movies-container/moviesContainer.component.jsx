@@ -11,11 +11,9 @@ const MoviesContainer = ({movies}) => {
     if(windowSize.width <= 1280) definer = 3
     if(windowSize.width <= 764) definer = 2
     if(windowSize.width <= 480) definer = 1
-    const newMovies = Array(12).fill(movies[0])
 
     const rowCount = Math.ceil(movies.length / definer);
 
-    console.log(rowCount, definer)
     const arr = Array(rowCount || 0).fill("")
 
     return (
